@@ -12,7 +12,7 @@ You can download the binary file.
 
 OR
 ```
-go install github.com/glchernenko1/proxy_for_wsl2@v1.0.2
+go install github.com/glchernenko1/proxy_for_wsl2@v1.0.0
 ```
 In the file properties you need to add parameter "run this program as an administrator"
 ![image](https://user-images.githubusercontent.com/42982650/201486929-cf8cda45-a772-45f0-a389-b6fa72562973.png)
