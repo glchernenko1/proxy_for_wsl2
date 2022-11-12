@@ -54,7 +54,6 @@ func deleteOldPort(ports chan Port, wg *sync.WaitGroup) {
 		cmd.Run()
 		wg.Done()
 	}
-
 }
 
 func ScanIP() string {
@@ -105,7 +104,6 @@ func (p *Ports) AddPorts() {
 	}
 	wg.Wait()
 	close(portChan)
-
 }
 
 func (p *Ports) DeleteOldPorts() {
