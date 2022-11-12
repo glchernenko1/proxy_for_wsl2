@@ -1,0 +1,12 @@
+{
+  "ports": [
+    {
+      "listenport": "2222",
+      "connectport": "8080"
+    },
+    {
+      "listenport": "4000",
+      "connectport": "4000"
+    }
+  ]
+}
